@@ -9,41 +9,41 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" type="image/jpg" href="https://maljoylove.com/wp-content/uploads/2021/07/SitcomSoulmates.png"/>
 </head>
- <h1>myBod </h1>
-  
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <style>
-    .pushable {
-      background: hsl(44, 100%, 64%);
-      /*background: rgb(252,217,117); */
-      border-radius: 12px;
-      border: none;
-      padding: 0;
-      cursor: pointer;
-      outline-offset: 4px;
-    }
-    .front {
-      display: block;
-      padding: 12px 42px;
-      border-radius: 12px;
-      font-size: 1.25rem;
-      /*background: hsl(345deg 100% 47%);*/
-      background: rgb(252,217,117);
-      color: black;
-      transform: translateY(-6px);
-      font-family: stenciletta, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-  
-    .pushable:active .front {
-      transform: translateY(-2px);
-    }
-  </style>
-  
-  <button class="pushable">
-    <span class="front">
-      Work Me Out!
-    </span>
-  </button>
+  .pushable {
+    background: hsl(44, 100%, 64%);
+    /*background: rgb(252,217,117); */
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    /*background: hsl(345deg 100% 47%);*/
+    background: rgb(252,217,117);
+    color: black;
+    transform: translateY(-6px);
+    font-family: stenciletta, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+</style>
+
+<button class="pushable" id="workitout">
+  <span class="front">
+    Work Me Out!
+  </span>
+</button>
+<div id ="myBod"></div>
+<script type="text/javascript" src="./workmeout.js"></script>
+</body>
+</html>
