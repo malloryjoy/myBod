@@ -28,7 +28,7 @@ function theWorkout (){
   }
     
     console.log("Your workout today is \n" + yourWorkout + "\n" + workoutDescription);
-  myBodContainer.innerHTML = `<h3 style="color: #ff0000;">Your workout today is</h3><br />${yourWorkout}<br /><br />${workoutDescription}`; //framework for results display
+  myBodContainer.innerHTML = `<div class="yay"><h3>Your workout today is</h3><br />${yourWorkout}<br /><br />${workoutDescription}</div>`; //framework for results display
   }
   const myBodContainer = document.getElementById('myBod');
    
