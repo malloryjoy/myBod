@@ -1,4 +1,4 @@
-/*The CSS*/
+/*The CSS PLAY BELOW, BOOTSTRAP BEGINS AT 55*/
 
 body {
     background-color: #5c5d5f;
@@ -16,7 +16,6 @@ h1,h3 {
 
 .pushable {
     background: hsl(44, 100%, 64%);
-    /*background: rgb(252,217,117); */
     border-radius: 12px;
     border: none;
     padding: 0;
@@ -29,7 +28,7 @@ h1,h3 {
     padding: 12px 42px;
     border-radius: 12px;
     font-size: 1.25rem;
-    /*background: hsl(345deg 100% 47%);*/
+    
     background: rgb(252,217,117);
     color: white;
     transform: translateY(-6px);
@@ -48,4 +47,10 @@ h1,h3 {
   .yay {
       color: #fff;
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+  } 
+
+  
+
+  
+
+
