@@ -21,12 +21,12 @@ function theWorkout (){
   } else if (workout === 3){
     var yourWorkout = 'Bodyweight';
     var workoutDescription ='Forget about weights today! All you need is your own body.';
-    var workoutPlaylist = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutPlaylist = 'https://open.spotify.com/playlist/1YvPVHEGGbxga1iH25Sdxj';
     var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
   } else if (workout === 4){
     var yourWorkout = 'Ballet';
     var workoutDescription ='Lengthen. Elongate. Channel your inner giant squid. Try a workout class like Pilates, Pure Barre, or Hot Yoga!';
-    var workoutPlaylist = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutPlaylist = 'https://open.spotify.com/playlist/45A55BgoTPU8NP4kUZ8tI5';
     var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
   } else if (workout === 5){
     var yourWorkout = 'Burn';
@@ -37,12 +37,12 @@ function theWorkout (){
   else {
     var yourWorkout = 'Breathe';
     var workoutDescription ='Take it easy today! A casual walk, some light yoga, or just stay in bed. Recovery is everything!';
-    var workoutPlaylist = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutPlaylist = 'https://open.spotify.com/playlist/0koOFGnTnbCYOguBSBeaP6';
     var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
   }
     var myWorkout = yourWorkout.toUpperCase();
     console.log("Your workout today is \n" + myWorkout + "\n" + workoutDescription);
-  myBodContainer.innerHTML = `<h3>Your workout today is</h3><br />${myWorkout}<br /><br />${workoutDescription}<br /><a href="${workoutPlaylist}">Open Targeted Workout Playlist</a> | <a href="${workoutGuide}">Open Basic Workout Guide</a>`; //framework for results display
+  myBodContainer.innerHTML = `<h3>Your workout today is</h3><br />${myWorkout}<br /><br />${workoutDescription}<br /><a href="${workoutPlaylist}" target="_blank" >Open Targeted Workout Playlist</a> | <a href="${workoutGuide}">Open Basic Workout Guide</a>`; //framework for results display
   }
   const myBodContainer = document.getElementById('myBod'); //displays the workout results
    
