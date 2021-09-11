@@ -11,12 +11,12 @@ function theWorkout (){
   if (workout === 1){
     var yourWorkout = 'Build';
     var workoutDescription ='Today, you are gonna build those muscles! Work out using a low amount of weight and a high amount of reps.';
-    var workoutPlaylist = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutPlaylist = 'https://open.spotify.com/playlist/7rD6HCQqdIaZ1VB7RSba48';
     var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
   } else if (workout === 2){
     var yourWorkout = 'Bulk';
     var workoutDescription ='Grow those muscles today! Work out using a high amount of weight with a low amount of reps.';
-    var workoutPlaylist = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutPlaylist = 'https://open.spotify.com/playlist/7MjzJYu4WUfS9tB8jJ0WJj';
     var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
   } else if (workout === 3){
     var yourWorkout = 'Bodyweight';
@@ -31,7 +31,7 @@ function theWorkout (){
   } else if (workout === 5){
     var yourWorkout = 'Burn';
     var workoutDescription ='Do some cardio today! Run, ride a bike, go for a swim, climb a tree!';
-    var workoutPlaylist = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutPlaylist = 'https://open.spotify.com/playlist/04HzOkV3lvPNP49ciwM8dz';
     var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
   }
   else {
