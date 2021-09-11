@@ -12,7 +12,7 @@ function theWorkout (){
     var yourWorkout = 'Build';
     var workoutDescription ='Today, you are gonna build those muscles! Work out using a low amount of weight and a high amount of reps.';
     var workoutPlaylist = 'https://open.spotify.com/playlist/7rD6HCQqdIaZ1VB7RSba48';
-    var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutGuide = 'https://malloryjoy.dev/myBod/Build.png';
   } else if (workout === 2){
     var yourWorkout = 'Bulk';
     var workoutDescription ='Grow those muscles today! Work out using a high amount of weight with a low amount of reps.';
