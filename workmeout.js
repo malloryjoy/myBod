@@ -17,28 +17,28 @@ function theWorkout (){
     var yourWorkout = 'Bulk';
     var workoutDescription ='Grow those muscles today! Work out using a high amount of weight with a low amount of reps.';
     var workoutPlaylist = 'https://open.spotify.com/playlist/7MjzJYu4WUfS9tB8jJ0WJj';
-    var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutGuide = 'https://malloryjoy.dev/myBod/Bulk.png';
   } else if (workout === 3){
     var yourWorkout = 'Bodyweight';
     var workoutDescription ='Forget about weights today! All you need is your own body.';
     var workoutPlaylist = 'https://open.spotify.com/playlist/1YvPVHEGGbxga1iH25Sdxj';
-    var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutGuide = 'https://malloryjoy.dev/myBod/Bodyweight.png';
   } else if (workout === 4){
     var yourWorkout = 'Ballet';
     var workoutDescription ='Lengthen. Elongate. Channel your inner giant squid. Try a workout class like Pilates, Pure Barre, or Hot Yoga!';
     var workoutPlaylist = 'https://open.spotify.com/playlist/45A55BgoTPU8NP4kUZ8tI5';
-    var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutGuide = 'https://malloryjoy.dev/myBod/Ballet.png';
   } else if (workout === 5){
     var yourWorkout = 'Burn';
     var workoutDescription ='Do some cardio today! Run, ride a bike, go for a swim, climb a tree!';
     var workoutPlaylist = 'https://open.spotify.com/playlist/04HzOkV3lvPNP49ciwM8dz';
-    var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutGuide = 'https://malloryjoy.dev/myBod/Burn.png';
   }
   else {
     var yourWorkout = 'Breathe';
     var workoutDescription ='Take it easy today! A casual walk, some light yoga, or just stay in bed. Recovery is everything!';
     var workoutPlaylist = 'https://open.spotify.com/playlist/0koOFGnTnbCYOguBSBeaP6';
-    var workoutGuide = 'https://open.spotify.com/playlist/3xAYxdp7A7SmZ54o0sJUMT';
+    var workoutGuide = 'https://malloryjoy.dev/myBod/Breathe.png';
   }
     var myWorkout = yourWorkout.toUpperCase();
     console.log("Your workout today is \n" + myWorkout + "\n" + workoutDescription);
