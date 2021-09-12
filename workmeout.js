@@ -42,7 +42,7 @@ function theWorkout (){
   }
     var myWorkout = yourWorkout.toUpperCase();
     console.log("Your workout today is \n" + myWorkout + "\n" + workoutDescription);
-  myBodContainer.innerHTML = `<h3>Your workout today is</h3><br />${myWorkout}<br /><br />${workoutDescription}<br /><a href="${workoutPlaylist}" target="_blank" >Open Targeted Workout Playlist</a> | <a href="${workoutGuide}">Open Basic Workout Guide</a>`; //framework for results display
+  myBodContainer.innerHTML = `<h3>Your workout today is</h3><br />${myWorkout}<br /><br />${workoutDescription}<br /><i class="fab fa-spotify"><a href="${workoutPlaylist}" target="_blank" ></i>   Open Targeted Workout Playlist</a> | <i class="fas fa-heartbeat"><a href="${workoutGuide}" target="_blank"></i>   Open Basic Workout Guide</a>`; //framework for results display
   }
   const myBodContainer = document.getElementById('myBod'); //displays the workout results
    
