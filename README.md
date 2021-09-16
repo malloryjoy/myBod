@@ -71,7 +71,7 @@ This project uses HTML, CSS, and continues my journey through Javascript. The di
 
 ## Challenges and Hopeful Future Adjustments 
 
-I am a fitness enthusiast, and I have no certifications nor medical experience in the world of exercise. Much like the challenge that inspired this program, iBod is not FDA approved, nor was it created with the help of physicians, certified trainers, or otherwise verified exercise experts. This is a rudimentary introduction to working out regularly, and is meant for entertainment purposes, not as a medically approved weight loss MO. 
+I am a fitness enthusiast, and I have no certifications nor medical experience in the world of exercise. Much like the challenge that inspired this program, myBod is not FDA approved, nor was it created with the help of physicians, certified trainers, or otherwise verified exercise experts. This is a rudimentary introduction to working out regularly, and is meant for entertainment purposes, not as a medically approved weight loss MO. 
 
 From a technical standpoint, some may see the ability to randomly generate without removing a workout from the list as a limitation. In other words, you could technically see "Burn" as an option two days, even ten days, in a row! I don't see this as a limitation, but rather as an opportunity to challenge, grow, and connect with your body. As well, if you get to the gym and know in your heart "I cannot do a fifth day in a row of bodyweight workouts," there is the "generate another" option to give yourself another chance to find a different workout!
 
