@@ -44,11 +44,13 @@ function theWorkout (){
     console.log("Your workout today is \n" + myWorkout + "\n" + workoutDescription);
   myBodContainer.innerHTML = `<h3>Your workout today is</h3><br /><span class="soul">${myWorkout}</span><br /><br />${workoutDescription}<br />&nbsp;<button class="resultButton"><a class="ren" href="${workoutPlaylist}" target="_blank"><span class="resultFront"> <i class="fab fa-spotify"></i>  Open Targeted Workout Playlist</a></span> </button>    <button class="resultButton"><a class="ren" href="${workoutGuide}" target="_blank"><span class="resultFront"><i class="fas fa-heartbeat"></i>   Open Basic Workout Guide</a></span></button>`; //framework for results display
   }
+  
   const myBodContainer = document.getElementById('myBod'); //displays the workout results
-   
+
   
   const genWorkout = document.getElementById('workitout'); //assigns the workout generator to the Work Me Out button
   genWorkout.addEventListener('click', theWorkout); //initates the generation of the workout when the button is clicked 
+
 
 // Get the modal
 var modal = document.getElementById("theproj");
@@ -59,15 +61,24 @@ var btn = document.getElementById("workitout");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+//Get the button that chooses a new workout
+const doOver = document.getElementById("newWorkout");
+
+//When the user clicks the doover button, the process starts again
+doOver.addEventListener('click', theWorkout);
+
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
+
+
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -75,6 +86,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-  
-    
-  
