@@ -64,6 +64,9 @@ color: #fff;
   font-style: normal;
 }
 
+.heart {
+  padding-bottom: 132px;
+}
 
 .resultButton:active .resultFront {
   transform: translateY(-2px);
@@ -138,6 +141,7 @@ text-align: center;
   color: #000;
 }
 
+
 .soul{
   color: #cb7e33;
   font-family: jaf-zalamander-caps, sans-serif;
@@ -163,4 +167,21 @@ cursor: pointer;
 }
 .fa, .fab, .fad, .fal, .far, .fas {
   color: #fff;
+}
+
+.spmeotjny {
+  height: 25px;
+}
+
+@media screen and (max-width: 420px) {
+  .spmeotjny {
+    height: 15px;
+  }
+  #startOver {
+    margin-top: -70px;
+  }
+  .reloaditfront {
+    display: block;
+    padding: 12px 17px;
+  }
 }
