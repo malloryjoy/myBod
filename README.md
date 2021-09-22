@@ -37,13 +37,13 @@ With that in mind, I created this random workout generator. This generator takes
 
 ## How It Works 
 
-This app uses a "Random" number generator, with each workout option assigned a number. Upon pressing the "Work Me Out" button, the generator gets triggered! A workout for the user will be generated, with a corresponding workout playlist (with Spotify). The result will also provide a random workout/health tip to keep in mind throughout their fitness journey! 
+This app uses a "Random" number generator, with each workout option assigned a number. Upon pressing the "Work Me Out" button, the generator gets triggered! A workout for the user will be generated, with a corresponding workout playlist (with Spotify). 
 
 
 
 ## Where Does the Code Come In 
 
-This project uses HTML, CSS, and continues my journey through Javascript. The different workout options exist as an object in a list.  Each "object" contains the workout, a link to a corresponding playlist, and suggested moves to incorporate into the workout. The .random() function grabs an object from the list. An additional .random() calculation occurs with the workout tip, pulling a tip from a separate list of about fifty tips. A one-page (using Bootstrap) contains the project, making for easy use on mobile devices, with an App look in mind! 
+This project uses HTML, CSS, and continues my journey through Javascript. The different workout options exist as variables in a function. A .random() number calculation is used to generate a number, which is then associated with a workout. For example, if the number generated is "1", the "1" result ("Build") will display. 
 
 ## My Process 
 
@@ -56,15 +56,13 @@ This project uses HTML, CSS, and continues my journey through Javascript. The di
 
 3. Create the random() function to generate the workout. 
 
-4. Create a list of wellness tips. 
+4. Create the function to call both random generators. 
 
-5. Create the random() function to generate the workout tip for the day.
+5. Add the onclick function to call the function created in step 6 when the "Work Me Out" button is pressed. 
 
-6. Create the function to call both random generators. 
+6. Create a landing page to house the application.
 
-7. Add the onclick function to call the function created in step 6 when the "Work Me Out" button is pressed. 
-
-8. Create a landing page to house the application.
+7. Modify the onclick function to display the workout results in a pop up. 
 
 
 
@@ -77,7 +75,7 @@ From a technical standpoint, some may see the ability to randomly generate witho
 
 I would love to use this app, in the future, to allow for goal-setting on a greater scope. I would expand to include six goals, allowing the user to pick one goal a day to work on over time.  As well, I would love to grow this into a personalized experience, where a user can create an account through which they can log their workouts, goals, and achievements! I do feel there is potential to grow this app with the influence of exercise and wellness experts, to create a program that helps the average beginner (but why stop there, as long as expansion is on the brain?) get started on a healthier lifestyle. 
 
-If all else fails, myBod is an excellent name that I will patent and then Apple can pay me eleventy billion dollars to sell it to them. At this point, I will retool this program to generate a random house to buy with my new money (a mansion in Hawaii or a Pied-à-terre in Monaco? I do so love the ocean). 
+If all else fails, myBod is an excellent name that I will patent and then Apple can pay me eleventy billion dollars to sell it to them. At this point, I will retool this program to generate a random house to buy with my new money (a bungalow in Hawaii or a Pied-à-terre in Monaco? I do so love the ocean). 
 
 
 ## Conclusion 
